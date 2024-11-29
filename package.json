@@ -1,0 +1,28 @@
+{
+  "name": "recipee",
+  "version": "1.0.0",
+  "main": "app.mjs",
+  "scripts": {
+    "test": "mocha --timeout 20000 --exit",
+    "start:dev": "nodemon server.mjs",
+    "start": "nodemon server.mjs"
+  },
+  "keywords": [],
+  "author": "mudash",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "express-validator": "^7.2.0",
+    "mongoose": "^8.7.0"
+  },
+  "devDependencies": {
+    "chai": "^5.1.1",
+    "chai-http": "^5.1.1",
+    "mocha": "^10.7.3",
+    "nodemon": "^3.1.7",
+    "supertest": "^7.0.0"
+  },
+  "type": "module"
+}
